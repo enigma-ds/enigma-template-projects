@@ -1,0 +1,6 @@
+{
+	"project_name": "Template for Enigma Data Sciente Projects",
+	"project_slug": "{{ 'dev_' + cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+	"project_description": "Template to create Enigma Data Science projects",
+	"project_author_name": "Your name"
+}

@@ -1,0 +1,15 @@
+# conda env create --file environment.yml
+name: {{ cookiecutter.project_slug }}
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - pip:
+    - pandas
+    - fastparquet
+    - numpy
+    - scikit-learn
+    - seaborn
+    - matplotlib
